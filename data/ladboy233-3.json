@@ -1,0 +1,8 @@
+{
+  "contest": 333,
+  "handle": "ladboy233",
+  "risk": "3",
+  "title": "Malicious actor can transfer user reward or exit user's position (transfer TAP token) to approved address that does not design to receive token and make user lose fund.",
+  "issueId": 3,
+  "issueUrl": "https://github.com/code-423n4/2024-02-tapioca-findings/issues/3"
+}

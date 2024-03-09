@@ -1,0 +1,8 @@
+{
+  "contest": 333,
+  "handle": "cccz",
+  "risk": "3",
+  "title": "Magnetar: _processOFTOperation has no check selector, users can forge _action.id to bypass the check",
+  "issueId": 23,
+  "issueUrl": "https://github.com/code-423n4/2024-02-tapioca-findings/issues/23"
+}

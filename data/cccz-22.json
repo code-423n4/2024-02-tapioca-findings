@@ -1,0 +1,8 @@
+{
+  "contest": 333,
+  "handle": "cccz",
+  "risk": "3",
+  "title": "TapTokenReceiver: Any user can cross-chain to claim other users' rewards",
+  "issueId": 22,
+  "issueUrl": "https://github.com/code-423n4/2024-02-tapioca-findings/issues/22"
+}

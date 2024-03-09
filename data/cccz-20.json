@@ -1,0 +1,8 @@
+{
+  "contest": 333,
+  "handle": "cccz",
+  "risk": "3",
+  "title": "AirdropBroker: When block.timestamp == lastEpochUpdate + EPOCH_DURATION, users can exercise options in the new epoch.",
+  "issueId": 20,
+  "issueUrl": "https://github.com/code-423n4/2024-02-tapioca-findings/issues/20"
+}

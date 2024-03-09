@@ -1,0 +1,8 @@
+{
+  "contest": 333,
+  "handle": "cccz",
+  "risk": "3",
+  "title": "Malicious users can use arbitrary addresses in composeMsg to steal other users' assets",
+  "issueId": 24,
+  "issueUrl": "https://github.com/code-423n4/2024-02-tapioca-findings/issues/24"
+}

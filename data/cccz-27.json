@@ -1,0 +1,8 @@
+{
+  "contest": 333,
+  "handle": "cccz",
+  "risk": "2",
+  "title": "Incorrect _checkSender check in Magnetar",
+  "issueId": 27,
+  "issueUrl": "https://github.com/code-423n4/2024-02-tapioca-findings/issues/27"
+}

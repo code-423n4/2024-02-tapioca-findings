@@ -1,0 +1,8 @@
+{
+  "contest": 333,
+  "handle": "cccz",
+  "risk": "3",
+  "title": "Attackers can construct compose calls to cross-chain steal assets from approved users",
+  "issueId": 47,
+  "issueUrl": "https://github.com/code-423n4/2024-02-tapioca-findings/issues/47"
+}

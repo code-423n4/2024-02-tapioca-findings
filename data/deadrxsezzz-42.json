@@ -1,0 +1,8 @@
+{
+  "contest": 333,
+  "handle": "deadrxsezzz",
+  "risk": "2",
+  "title": "Magnetar doesn't refund ETH when a tx with `allowFailure == true` fails. ",
+  "issueId": 42,
+  "issueUrl": "https://github.com/code-423n4/2024-02-tapioca-findings/issues/42"
+}

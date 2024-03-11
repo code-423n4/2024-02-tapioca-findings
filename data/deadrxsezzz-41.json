@@ -1,0 +1,8 @@
+{
+  "contest": 333,
+  "handle": "deadrxsezzz",
+  "risk": "2",
+  "title": "Magnetar#_processMarketOperation is expected to be able to work with `execute` but cannot (and should not). ",
+  "issueId": 41,
+  "issueUrl": "https://github.com/code-423n4/2024-02-tapioca-findings/issues/41"
+}

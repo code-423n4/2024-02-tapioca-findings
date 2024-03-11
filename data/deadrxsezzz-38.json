@@ -1,0 +1,8 @@
+{
+  "contest": 333,
+  "handle": "deadrxsezzz",
+  "risk": "2",
+  "title": "If a week is missed for an `emitForWeek`, it will lead to overdistribution of emissions",
+  "issueId": 38,
+  "issueUrl": "https://github.com/code-423n4/2024-02-tapioca-findings/issues/38"
+}

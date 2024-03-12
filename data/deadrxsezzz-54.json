@@ -1,0 +1,8 @@
+{
+  "contest": 333,
+  "handle": "deadrxsezzz",
+  "risk": "3",
+  "title": "Adversary can steal approved tOLPs to Magnetar via `_paricipateOnTOLP`",
+  "issueId": 54,
+  "issueUrl": "https://github.com/code-423n4/2024-02-tapioca-findings/issues/54"
+}

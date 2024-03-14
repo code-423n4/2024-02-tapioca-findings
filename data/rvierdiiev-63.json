@@ -1,0 +1,8 @@
+{
+  "contest": 333,
+  "handle": "rvierdiiev",
+  "risk": "3",
+  "title": "Funds can be stolen using reentrancy in Magnetar",
+  "issueId": 63,
+  "issueUrl": "https://github.com/code-423n4/2024-02-tapioca-findings/issues/63"
+}

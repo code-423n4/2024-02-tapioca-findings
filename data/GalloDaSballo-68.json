@@ -1,0 +1,8 @@
+{
+  "contest": 333,
+  "handle": "GalloDaSballo",
+  "risk": "3",
+  "title": "Rebasing of USDO YieldBox via donation can be used to prevent locks from ever having `votingPower` on every new Singularity",
+  "issueId": 68,
+  "issueUrl": "https://github.com/code-423n4/2024-02-tapioca-findings/issues/68"
+}

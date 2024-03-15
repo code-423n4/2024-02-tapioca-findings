@@ -56,6 +56,31 @@ the function
 
 is missing.
 
+the function that calls approve borrow are missing as well, which enforce user to create seperate approveBorrow transaction instead of composing one transaction in burst 
+
+```
+ function approveBorrow(address spender, uint256 amount) external returns (bool) {
+        _approveBorrow(msg.sender, spender, amount);
+        return true;
+    }
+```
+
+and
+
+```
+ function permitBorrow(
+        address owner,
+        address spender,
+        uint256 value,
+        uint256 deadline,
+        uint8 v,
+        bytes32 r,
+        bytes32 s
+    ) external virtual {
+        _permit(false, owner, spender, value, deadline, v, r, s);
+    }
+```
+
 It is recommendated to check if the function selector is permitToken as well in the burst multicall.
 
 # Return value from ITapiocaOracle(market.oracle()).peek is not handled

@@ -1,0 +1,8 @@
+{
+  "contest": 333,
+  "handle": "GalloDaSballo",
+  "risk": "3",
+  "title": "`encodeToeComposeMsg` Encoding is incorrect and messages won't work",
+  "issueId": 74,
+  "issueUrl": "https://github.com/code-423n4/2024-02-tapioca-findings/issues/74"
+}

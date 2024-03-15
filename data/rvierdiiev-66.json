@@ -1,0 +1,8 @@
+{
+  "contest": 333,
+  "handle": "rvierdiiev",
+  "risk": "2",
+  "title": "Magnetar._processMarketOperation function will not be able to handle execute selector",
+  "issueId": 66,
+  "issueUrl": "https://github.com/code-423n4/2024-02-tapioca-findings/issues/66"
+}

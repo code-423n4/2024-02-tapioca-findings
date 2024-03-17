@@ -1,0 +1,8 @@
+{
+  "contest": 333,
+  "handle": "deadrxsezzz",
+  "risk": "2",
+  "title": "Sending more TAP tokens to the TapToken.sol contract does not actually increase the total amount to be distributed",
+  "issueId": 84,
+  "issueUrl": "https://github.com/code-423n4/2024-02-tapioca-findings/issues/84"
+}

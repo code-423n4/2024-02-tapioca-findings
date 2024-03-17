@@ -1,0 +1,8 @@
+{
+  "contest": 333,
+  "handle": "GalloDaSballo",
+  "risk": "2",
+  "title": "Send packet can be made to return no tokens by claiming on behalf",
+  "issueId": 86,
+  "issueUrl": "https://github.com/code-423n4/2024-02-tapioca-findings/issues/86"
+}

@@ -1,0 +1,8 @@
+{
+  "contest": 333,
+  "handle": "carrotsmuggler",
+  "risk": "2",
+  "title": "[M11] `_processMarketOperation` in Magnetar can revert due to incorrect checks",
+  "issueId": 136,
+  "issueUrl": "https://github.com/code-423n4/2024-02-tapioca-findings/issues/136"
+}

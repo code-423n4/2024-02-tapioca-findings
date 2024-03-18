@@ -11,6 +11,7 @@
   - [L08 Airdrop broker does not check the `success` field of the oracle's `peek` function](#l08-airdrop-broker-does-not-check-the-success-field-of-the-oracles-peek-function)
   - [L09 OTAP.sol `isApprovedOrOwner` doesnt check pearlmit approvals](#l09-otapsol-isapprovedorowner-doesnt-check-pearlmit-approvals)
   - [L10 `exitPositionAndRemoveCollateral` can be denied by any user](#l10-exitpositionandremovecollateral-can-be-denied-by-any-user)
+  - [L11 Options minted near the end of the epoch immediately expire](#l11-options-minted-near-the-end-of-the-epoch-immediately-expire)
   - [QA01 Missing event](#qa01-missing-event)
 
 ## L01 Counters has been deprecated
@@ -204,6 +205,16 @@ The issue is that the `exitPosition` function in TOB contract does not need the 
 So if a user calls a long operation on the Magnetar contract with the `data.removeAndRepayData.exitData.exit` parameter set to true, anyone can see that message on the base chain and call `exitPosition` on that tokenID in the target chain themselves. This will result in the actual user's lzcompose failing, since the token is already burnt and the user is already kicked out of the system. This means all the subsequent operations that the user was trying to do through Magnetar will not happen as well.
 
 While this does not cause harm to the system, this can still affect user UX and make user transactions revert, creating a temporary DOS. Consider putting the `exitPosition` function in a try-catch statement so it cannot be denied by others.
+
+## L11 Options minted near the end of the epoch immediately expire
+
+Users can participate in the options airdrop and mint themselves option tokens, which they can then exercise. The option is set to expire at the end of the epoch, as evident from this line.
+
+```solidity
+uint128 expiry = uint128(lastEpochUpdate + EPOCH_DURATION)
+```
+
+`lastEpochUpdate` is the timestamp of the last epoch update. According to the docs on the tapioca website, `and these options will carry an expiry of 48 hours. This distribution will coincide with the TAP/WETH LP deployment on Uniswap V3 on the Arbitrum network.` This is technically not true, since the the options once minted can have a lifetime of only a few seconds before expiry. The docs make it sound like the option can be minted, and **then** need to be exercised within 48 hours, while the reality is that the options have to be **minted and exercised** within 48 hours.
 
 ## QA01 Missing event
 

@@ -1,0 +1,8 @@
+{
+  "contest": 333,
+  "handle": "ronnyx2017",
+  "risk": "2",
+  "title": "AirdropBroker does not handle the case where payment token decimals are greater than 18",
+  "issueId": 103,
+  "issueUrl": "https://github.com/code-423n4/2024-02-tapioca-findings/issues/103"
+}

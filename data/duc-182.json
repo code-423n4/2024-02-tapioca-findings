@@ -1,8 +1,0 @@
-{
-  "contest": 333,
-  "handle": "duc",
-  "risk": "2",
-  "title": "Missing an option to wrap Singularity tokens in `mintBBLendSGLLockTOLP` function to be able to lock into OLP ",
-  "issueId": 182,
-  "issueUrl": "https://github.com/code-423n4/2024-02-tapioca-findings/issues/182"
-}

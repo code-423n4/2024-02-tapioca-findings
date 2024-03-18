@@ -1,0 +1,8 @@
+{
+  "contest": 333,
+  "handle": "KIntern_NA",
+  "risk": "3",
+  "title": "Attacker can drain all tap token from victim's wallet using function `BaseTapiocaOmnichainEngine::transferFrom()`",
+  "issueId": 152,
+  "issueUrl": "https://github.com/code-423n4/2024-02-tapioca-findings/issues/152"
+}

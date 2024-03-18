@@ -1,0 +1,8 @@
+{
+  "contest": 333,
+  "handle": "bin2chen",
+  "risk": "2",
+  "title": "TapiocaOptionBroker.participate() with the approve authorization, it still cannot be executed.",
+  "issueId": 109,
+  "issueUrl": "https://github.com/code-423n4/2024-02-tapioca-findings/issues/109"
+}

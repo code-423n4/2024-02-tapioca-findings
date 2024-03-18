@@ -1,0 +1,8 @@
+{
+  "contest": 333,
+  "handle": "KIntern_NA",
+  "risk": "2",
+  "title": "The attacker can exercise the TAP option twice by just locking their position for slightly more than one week",
+  "issueId": 148,
+  "issueUrl": "https://github.com/code-423n4/2024-02-tapioca-findings/issues/148"
+}

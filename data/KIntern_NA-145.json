@@ -1,0 +1,8 @@
+{
+  "contest": 333,
+  "handle": "KIntern_NA",
+  "risk": "3",
+  "title": "The attacker can steal the reward from twTAP by utilizing the function `TapTokenReceiver::_claimTwpTapRewardsReceiver()`",
+  "issueId": 145,
+  "issueUrl": "https://github.com/code-423n4/2024-02-tapioca-findings/issues/145"
+}

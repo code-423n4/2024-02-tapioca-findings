@@ -1,0 +1,8 @@
+{
+  "contest": 333,
+  "handle": "GalloDaSballo",
+  "risk": "2",
+  "title": " `MagnetarAssetModule` `_extractTokens` uses `msg.sender` instead of `data.user`",
+  "issueId": 93,
+  "issueUrl": "https://github.com/code-423n4/2024-02-tapioca-findings/issues/93"
+}

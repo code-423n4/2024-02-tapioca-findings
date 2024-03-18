@@ -1,0 +1,8 @@
+{
+  "contest": 333,
+  "handle": "carrotsmuggler",
+  "risk": "3",
+  "title": "[H10] `MagnetarMintXChainModule.sol`:`mintBBLendXChainSGL` can be used to manipulate user positions by abusing whitelist privileges",
+  "issueId": 185,
+  "issueUrl": "https://github.com/code-423n4/2024-02-tapioca-findings/issues/185"
+}

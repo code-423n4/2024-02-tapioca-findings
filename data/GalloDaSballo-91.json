@@ -1,0 +1,8 @@
+{
+  "contest": 333,
+  "handle": "GalloDaSballo",
+  "risk": "3",
+  "title": "Incorrect Math means `data.removeAndRepayData.removeAssetFromSGL` will never work once SGL has accrued interest",
+  "issueId": 91,
+  "issueUrl": "https://github.com/code-423n4/2024-02-tapioca-findings/issues/91"
+}

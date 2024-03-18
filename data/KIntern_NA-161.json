@@ -1,0 +1,8 @@
+{
+  "contest": 333,
+  "handle": "KIntern_NA",
+  "risk": "3",
+  "title": "Tokens deposited will be stuck in `depositRepayAndRemoveCollateralFromMarket` function if user attempts to execute the deposit step but skip the repay step",
+  "issueId": 161,
+  "issueUrl": "https://github.com/code-423n4/2024-02-tapioca-findings/issues/161"
+}

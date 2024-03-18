@@ -1,0 +1,8 @@
+{
+  "contest": 333,
+  "handle": "KIntern_NA",
+  "risk": "2",
+  "title": "Missing slippage check when depositing to YieldBox",
+  "issueId": 163,
+  "issueUrl": "https://github.com/code-423n4/2024-02-tapioca-findings/issues/163"
+}

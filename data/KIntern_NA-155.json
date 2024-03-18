@@ -1,0 +1,8 @@
+{
+  "contest": 333,
+  "handle": "KIntern_NA",
+  "risk": "3",
+  "title": "`_lzCustomWithdraw` function of MagnetarBaseModule  will not send any tokens cross-chain",
+  "issueId": 155,
+  "issueUrl": "https://github.com/code-423n4/2024-02-tapioca-findings/issues/155"
+}

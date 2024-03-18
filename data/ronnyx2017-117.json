@@ -1,0 +1,8 @@
+{
+  "contest": 333,
+  "handle": "ronnyx2017",
+  "risk": "2",
+  "title": " Magnetar._processPermitOperation can grant the sender approval for all tokens of Magnetar",
+  "issueId": 117,
+  "issueUrl": "https://github.com/code-423n4/2024-02-tapioca-findings/issues/117"
+}
